@@ -115,10 +115,11 @@ function addReview(array, name, rating, feedback){
     rating,
     feedback
   }
-  return array.push(newReview);
+  array.push(newReview);
+  return array;
 }
 
-addReview(reviews, 'Peter', 5, 'Not bad!')
+addReview(reviews, 'Daniella', 5, 'Beautiful atmosphere and wonderful vegan options!')
 console.log('task 5', reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
